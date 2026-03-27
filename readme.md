@@ -32,9 +32,11 @@ This project is a visually stunning and fully responsive landing page built usin
 
 ---
 
-## 📂 Project Structure
+preview
 
-[live]()
+[live](https://anandhues2004-kerala.github.io/-Build-the-Future/)
+
+
 ![img](./image.png)
 ```
 📁 project-folder
