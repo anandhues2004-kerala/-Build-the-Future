@@ -1,81 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- font ossam -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-      <!-- google fonts -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Momo+Signature&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<!-- tailwind -->
-
- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
- <script src="https://cdn.tailwindcss.com"></script>
-
-<script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            fontFamily: {
-              poppins:["Poppins","sans-serif"],
-               fonts:["Momo Signature","cursive"],
-               fontss:["Open Sans", "sans-serif"],
-            },
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            poppins: ["Poppins", "sans-serif"],
+            fonts:["Momo Signature","cursive"],
+            opensans: ["Open Sans", "sans-serif"],
           },
         },
-      };
-    </script>
-    <title>Document</title>
+      },
+    };
+  </script>
+  <title>Crypto</title>
 </head>
-<body>
-    <main class=" relative">
-        <img src="./73fd7a7e-5524-4b16-b022-c6ed7484732c.jpg" alt="" class="w-full h-screen absolute mix-blend-overlay">
-        <nav class="px-20 py-4 flex justify-between">
-            <h1 class="text-5xl text-white font-poppins font-bold ">L<span class="text-5xl text-sky-500 font-fonts -ml-3 ">0</span><span class="text-5xl text-white font-fontss -ml-3">g</span><span class="text-5xl text-white font-poppins -m-1">O</span></h1>
-                <ul class="hidden  xl:flex items-center gap-10 text-white font-poppins">
-                    <li class="cursor-pointr hover:text-black hover:underline" >Apps</li>
-                    <li><i class="fa-solid fa-angle-down" style="color: rgb(242, 242, 241);"></i></li>
-                    <li class="border border-r h-15" ></li>
-                    <li>DAO</li>
-                    <li>Technology</li>
-                    <li>Token</li>
-                    <li>Contibutors</li>
-                </ul>
-            <div class="hidden xl:flex">
-              <button class="text-white h-10 w-30   bg-[#BF7AF0] rounded-md font-poppins">Buy 1 token</button>
-            </div>
-            <div class="xl:hidden flex gap-4 text-2xl items-center">
-                  <i class="fa-solid fa-plane-up" style="color: rgb(242, 242, 241);"></i>
-              <span><i class="fa-solid fa-ellipsis-vertical " style="color: rgb(242, 242, 241);"></i></span>
-          
-              
-            </div>
-                     
-                
+<body class="font-poppins">
+  <div class="relative min-h-screen">
+    <div class="absolute inset-0">
+      <img src="./73fd7a7e-5524-4b16-b022-c6ed7484732c.jpg"
+           class="w-full h-full object-cover mix-blend-overlay">
+    </div>
+    <div class="relative z-10">
+      <header class="flex justify-between items-center px-6 md:px-20 py-4 text-white">
+        <h1 class="text-4xl md:text-5xl font-bold">
+          L<span class="text-sky-500 font-fonts -ml-2">0</span>
+          <span class=" font-opensans -ml-3">g</span>
+          <span class="-ml-4">O</span>
+        </h1>
+        <nav class="hidden xl:flex items-center gap-8">
+          <span class="hover:underline cursor-pointer">Apps</span>
+          <i class="fa-solid fa-angle-down"></i>
+          <span class="h-6 border-r"></span>
+          <span class="hover:underline cursor-pointer">DAO</span>
+          <span class="hover:underline cursor-pointer">Technology</span>
+          <span class="hover:underline cursor-pointer">Token</span>
+          <span class="hover:underline cursor-pointer">Contributors</span>
         </nav>
-        <section class="flex justify-center items-center   mt-25 ">
-            <div class="text-white  font-poppins  text-center"> 
-               <h1 class="text-[25px] md:text-6xl  font-bold  ">Let build a better <br>
-            tomorrow,together.</h1> 
-            
-          <p class="text-center text-white lg:text-2xl font-poppins mt-5  text-[15px] md:text-2x px-6 "> Buy 1 Token. join the DAO. Change the world</p>
-          
-          <button class="bg-[#BF7AF0]  px-6 py-2 rounded-md mt-5 text-[13px] md:text-2xl font-bold ">Request Early Access</button>
-
-            </div>
-
-
-    
-            
-    
-           
-            
-            
-        </section>
-    </main>
-    
+        <div class="hidden xl:block">
+          <button class="bg-[#BF4AF6] px-5 py-2 rounded-md hover:text-blue-700 cursor-pointer transition-transform hover:scale-110 duration-200">
+            Buy 1 token
+          </button>
+        </div>
+        <div class="xl:hidden flex items-center gap-4 text-xl">
+          <i class="fa-solid fa-plane-up"></i>
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+      </header>
+      <section class="flex items-center justify-center text-center text-white px-6 mt-20 md:mt-28">
+        <div class="max-w-3xl">
+          <h1 class="text-2xl md:text-6xl font-bold leading-tight">
+            Let build a better <br>
+            tomorrow,together.
+          </h1>
+          <p class="mt-5 text-sm md:text-2xl">
+            Buy 1 Token. join the DAO. Change the world
+          </p>
+          <button class="mt-6 bg-[#BF7AF0] px-6 py-2 rounded-md font-bold text-sm md:text-xl hover:text-blue-700 cursor-pointer transition-transform hover:scale-110 duration-200">
+            Request Early Access
+          </button>
+        </div>
+      </section>
+    </div>
+  </div>
 </body>
 </html>
-   
